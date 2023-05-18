@@ -72,4 +72,23 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
 
+### Generate Token in SonarQube
 
+- Goto Sonarqube Server
+- goto my account
+- goto security
+- generate token -jenkins
+- copy token code
+
+![image](https://github.com/Anusha2710/Jenkins-Zero-To-Hero/assets/47424821/859b5fbf-48fe-461e-b06f-c3d6ff707b91)
+
+### Manage Credentials in Jenkins
+
+-goto manage jenkins
+- goto credetials
+- click on system
+- click on global credentials 
+- add credentials
+- create
+
+![image](https://github.com/Anusha2710/Jenkins-Zero-To-Hero/assets/47424821/c54941f9-e2bf-42b6-a43c-94c35bae834f)
